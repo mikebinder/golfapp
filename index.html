@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+              
+</head>
+
+
+<body>
+    <div class = "jumbotron">
+<h4>Shot Parameters</h4>
+
+<button id ="shot">Randomize Shot</button>
+<p id = "club"></p>
+<p id = "shape"></p>
+<p id = "dontMiss"></p>
+</div>
+<div id = "result">
+<a class="btn-floating btn-large red" id ="NO">NO</a><a class="btn-floating btn-large green" id="YES">YES</a>
+</div>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="golf.js"></script>
+    
+</body>
+</html>
+
+<style>
+    .jumbotron{
+       text-align: center;
+    }
+    #result {
+        text-align: center;
+    }
+    .btn-floating {
+        margin: 10px;
+    }
+</style>
+
